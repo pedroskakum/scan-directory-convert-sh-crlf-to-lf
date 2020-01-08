@@ -1,6 +1,6 @@
 const { readdirSync } = require('fs');
 const shell = require('shelljs');
-const path = '/mnt/c/Projetos/git.paytvlabs.com.br/STV/stv-iptv';
+const path = '/mnt/c/Projetos/git.paytvlabs.com.br/STV';
 
 function getDirectories(path) {
   readdirSync(path, { withFileTypes: true }).map(dirent => {
